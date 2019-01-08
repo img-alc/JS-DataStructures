@@ -32,9 +32,3 @@ export default class LinkedList {
   }
 
 }
-
-var ll = LinkedList();
-ll.addItemToHead(15);
-ll.addItemToHead(5);
-ll.addItemToHead(1);
-ll.addItemToHead(151);
