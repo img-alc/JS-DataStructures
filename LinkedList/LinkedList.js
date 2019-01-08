@@ -12,11 +12,13 @@ export default class LinkedList {
       };
 
       this.head = newNode;
+      length++;
   }
 
   removeHead() {
     const newHead = this.head.next;
     this.head = newHead;
+    length--;
   }
 
   addItemToTail(value) {
