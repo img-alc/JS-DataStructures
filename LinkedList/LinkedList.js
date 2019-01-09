@@ -9,7 +9,6 @@ export default class LinkedList {
       value: value,
       next: this.head
     };
-
       this.head = newNode;
       this.length++;
   }
@@ -81,9 +80,4 @@ export default class LinkedList {
      return removedValue;
     }
   }
-
-  find(value) {
-
-  }
-
 }
