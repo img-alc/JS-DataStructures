@@ -5,12 +5,10 @@ export default class MinHeap {
 
   insert(element){
     this.heap.push(element);
-
     if(this.heap.length > 1) {
       let isElementInPosition = false;
       let currentIndex = this._getLastElementIndex();
       let parentIndex = this._getParentIndex(currentIndex);
-
       do {
         if(this.heap[parentIndex] > this.heap[currentIndex]){
             //swap elements
