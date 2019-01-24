@@ -15,12 +15,12 @@ class Graph {
     addEdge(vertice1, vertice2) {
         if(this.adjacentList.has(vertice1) || this.adjacentList.has(vertice2)) {
             if(this.adjacentList.get(vertice1).includes(vertice2)) {
-                throw `Edge already added to Graph`
+                throw `Edge already added to Graph`;
             }
             this.adjacentList.get(vertice1).push(vertice2);
             this.adjacentList.get(vertice2).push(vertice1);
         } else {
-            throw `One or both vertices were not added to Graph`
+            throw `One or both vertices were not added to Graph`;
         }        
     }
 
