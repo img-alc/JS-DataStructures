@@ -1,4 +1,4 @@
-export default class MinHeap {
+class MinHeap {
   constructor() {
     this.heap = [];
   }
