@@ -29,6 +29,10 @@ class MinHeap {
     }
   }
 
+  getNumberOfNodes() {
+    return this.heap.length;
+  }
+
   _getParentIndex(elementIndex) {
     return (elementIndex-1)/2;
   }
@@ -44,4 +48,5 @@ class MinHeap {
   _getLastElementIndex() {
     return this.heap.length-1;
   }
+
 }
