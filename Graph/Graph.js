@@ -35,4 +35,8 @@ class Graph {
             return false;
         }
     }
+
+    getNumberOfVertices() {
+        return this.numberOfVertices;
+    }
 }
