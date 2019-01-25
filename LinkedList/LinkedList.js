@@ -69,8 +69,11 @@ class LinkedList {
         }
       } while(!isNextNodeTail);
       return nextNodeValue;
-    }
-    
+    }   
+  }
+
+  getNumberOfNodes() {
+    return this.length;
   }
 }
 
